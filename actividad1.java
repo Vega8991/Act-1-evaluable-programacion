@@ -4,15 +4,22 @@ public class actividad1 {
 
 	public static void main(String[] args) {
 		
-		//Definimos las variables
+		//Cambiamos el tipo de variables
 		
-		int t = 567;
-		int m = 877;
+		short t = 567;
+		long m = 877;
 		
-		//Incluimos conversiones de tipo ancho y estrecho
+		//Anadimos constantes
+		
+		double Pi = 3.14159;
+		
+		/*Modificamos las conversiones de tipo
+		ancho y estrecho y anadimos mas*/
 		
 		long tlong = t;
 		short mshort = (short) m;
+		char tchar = (char) t;
+		int mint = (int) m;
 		
 		/*Imprimimos por pantalla los valores de las variables y sus
 		diferentes tipos de operaciones matematicas*/
@@ -21,8 +28,9 @@ public class actividad1 {
 		System.out.println("La variable m equivale a " + m);
 		System.out.println("La suma de las dos variables equivale a " + (t + m));
 		System.out.println("La resta de las dos variables equivale a " + (t - m));
-		System.out.println("La multiplicación de las dos variables equivale a " + (t * m));
-		System.out.println("La división de las dos variables equivale a " + (t / m));
-		System.out.println("El módulo de las dos variables equivale a " + (t % m));
+		System.out.println("La multiplicacion de las dos variables equivale a " + (t * m));
+		System.out.println("La division de las dos variables equivale a " + (t / m));
+		System.out.println("El modulo de las dos variables equivale a " + (t % m));
+		System.out.println("El numero pi es: " + Pi);
 	}
 }
